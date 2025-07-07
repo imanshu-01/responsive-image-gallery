@@ -24,4 +24,4 @@ Welcome to **My Gallery**, a responsive and interactive web-based image gallery 
 
 ## 🌙Live Demo
 
-https://responsivegallary.netlify.app/
+https://responsive-gallary.netlify.app/
