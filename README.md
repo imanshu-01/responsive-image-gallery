@@ -8,21 +8,19 @@ Welcome to **My Gallery**, a responsive and interactive web-based image gallery 
 - 🖼️ **Responsive Image Grid Layout**
 - 🖱️ **Slideshow / Lightbox Preview** (Click any image to open a slideshow)
 - 🌈 **Neon Text Styling & Hover Animations**
-- 🌙 **Dark Theme Background**
 - 🚀 **Fully Responsive Design**
 
 ## 📌 Technologies Used
 
 - **HTML5** – for content structure  
 - **CSS3** – for stylish design and responsive layout  
-- **JavaScript (Vanilla JS)** – for interactivity and dynamic filtering  
+- **JavaScript** – for interactivity and dynamic filtering  
 
 ## 🚧 How to Use
 
 1. Clone or download the repository:
-   ```bash
-   git clone https://github.com/imanshu-01/responsive=image-gallery.git
+ https://github.com/imanshu-01/responsive-image-gallery/tree/main
 
-## 🚀Live Demo
+## 🌙Live Demo
 
-
+https://responsivegallary.netlify.app/
