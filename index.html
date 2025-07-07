@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <h1>Welcome to Our Gallery</h1>
+
+  <div class="filters">
+    <button class="active" onclick="filterImages('all')">All</button>
+    <button onclick="filterImages('nature')">Nature</button>
+    <button onclick="filterImages('cute')">Cute</button>
+    <button onclick="filterImages('birds')">Birds</button>
+    <button onclick="filterImages('superhero')">Superhero</button>
+    <button onclick="filterImages('food')">Food</button>
+    <button onclick="filterImages('me')">Me</button>
+    
+  </div>
+
+  <div class="gallery" id="gallery">
+    <div class="image-box nature"><img src="images/natureimg1.jpg" alt="Nature 1"></div>
+    <div class="image-box cute"><img src="images/c1.jpg" alt="Cute 1"></div>
+    <div class="image-box birds"><img src="images/f1.jpg" alt="Bird 1"></div>
+    <div class="image-box superhero"><img src="images/s1.jpg" alt="Superhero 1"></div>
+    <div class="image-box food"><img src="images/foodimg1.jpg" alt="Food 1"></div>
+    <div class="image-box me"><img src="images/meimg1.jpg" alt="Me 1"></div>
+
+    <div class="image-box superhero"><img src="images/s2.jpg" alt="Superhero 2"></div>
+    <div class="image-box food"><img src="images/foodimg2.jpg" alt="Food 2"></div>
+    <div class="image-box me"><img src="images/meimg2.jpg" alt="Me 2"></div>
+    <div class="image-box cute"><img src="images/c2.jpg" alt="Cute 2"></div>
+    <div class="image-box nature"><img src="images/natureimg2.jpg" alt="Nature 2"></div>
+    <div class="image-box birds"><img src="images/f2.jpg" alt="Bird 2"></div>
+
+    <div class="image-box nature"><img src="images/natureimg3.jpg" alt="Nature 3"></div>
+    <div class="image-box birds"><img src="images/f3.jpg" alt="Bird 3"></div>
+    <div class="image-box cute"><img src="images/c3.jpg" alt="Cute 3"></div>
+    <div class="image-box superhero"><img src="images/s3.jpg" alt="Superhero 3"></div>
+    <div class="image-box food"><img src="images/foodimg3.jpg" alt="Food 3"></div>
+    <div class="image-box me"><img src="images/meimg4.jpg" alt="Me 3"></div>
+    
+    <div class="image-box superhero"><img src="images/s4.jpg" alt="Superhero 4"></div>
+    <div class="image-box me"><img src="images/meimg3.jpg" alt="Me 4"></div>
+    <div class="image-box birds"><img src="images/f4.jpg" alt="Bird 4"></div>
+    <div class="image-box nature"><img src="images/natureimg4.jpg" alt="Nature 4"></div>
+    <div class="image-box cute"><img src="images/c4.jpg" alt="Cute 4"></div>
+    <div class="image-box food"><img src="images/foodimg4.jpg" alt="Food 4"></div>
+   
+    <div class="image-box food"><img src="images/foodimg5.jpg" alt="Food 5"></div>
+    <div class="image-box superhero"><img src="images/s5.jpg" alt="Superhero 5"></div>
+    <div class="image-box cute"><img src="images/c5.jpg" alt="Cute 5"></div>
+    <div class="image-box birds"><img src="images/f5.jpg" alt="Bird 5"></div>
+    <div class="image-box nature"><img src="images/natureimg5.jpg" alt="Nature 5"></div>
+    <div class="image-box me"><img src="images/meimg5.jpg" alt="Me 5"></div>
+
+    <div class="image-box cute"><img src="images/c6.jpg" alt="Cute 6"></div>
+    <div class="image-box nature"><img src="images/natureimg6.jpg" alt="Nature 6"></div>
+    <div class="image-box food"><img src="images/foodimg6.jpg" alt="Food 6"></div>
+    <div class="image-box me"><img src="images/meimg6.jpg" alt="Me 6"></div>
+    <div class="image-box birds"><img src="images/f6.jpg" alt="Bird 6"></div>
+    <div class="image-box superhero"><img src="images/s6.jpg" alt="Superhero 6"></div>
+
+  </div>
+
+  <div class="lightbox" id="lightbox">
+    <img src="" alt="Full View" id="lightbox-img" />
+    <div class="lightbox-controls">
+      <button onclick="prevImage()">⏮ Prev</button>
+      <button onclick="nextImage()">Next ⏭</button>
+      <button onclick="closeLightbox()">❌ Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
