@@ -19,6 +19,7 @@ Welcome to **My Gallery**, a responsive and interactive web-based image gallery 
 ## 🚧 How to Use
 
 1. Clone or download the repository:
+   
  https://github.com/imanshu-01/responsive-image-gallery/tree/main
 
 ## 🌙Live Demo
